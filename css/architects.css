@@ -185,7 +185,7 @@ main > section{
     font-weight: 700;
 }
 
-.featured-architect{
+.featured-architect img{
     width: 100%;
 }
 
@@ -242,6 +242,29 @@ main > section{
     filter: grayscale(100%);
 }
 
+/* footer related style */
+
+.footer{
+    width: 100%;
+    background-color: #fff4e7;
+    color: #424242;
+    height: 100px;
+    padding: 20px 0;
+    font-size: 1.1rem;
+    justify-content: center;
+    margin-top: 70px;
+    bottom: 0;
+     position: relative;
+}
+
+.footer-info p{
+    text-align: center;
+    margin: 0;
+    letter-spacing: 0.5px;
+    
+  
+}
+
 
 /* Responsive Media Query */
 
@@ -270,7 +293,11 @@ main > section{
 
     #experience-badge{
        margin-top: 20px;
-       margin-left: 20px; 
+       margin-left: 5px; 
+    }
+
+    .footer{
+        font-size: 1.0;
     }
 }
 
